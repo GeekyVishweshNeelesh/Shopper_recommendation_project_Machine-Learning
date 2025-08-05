@@ -110,7 +110,3 @@ Made with ❤️ by **[Vishwesh Neelesh](https://github.com/GeekyVishweshNeelesh
 🔗 GitHub: [@GeekyVishweshNeelesh](https://github.com/GeekyVishweshNeelesh)
 
 ---
-
-## 📌 License
-
-This project is licensed under the MIT License.
