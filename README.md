@@ -12,10 +12,10 @@ The aim is to assist businesses in understanding customer purchasing behavior an
 ## 📸 App Interface - Screenshots
 
 ### 🎯 Product Recommendation
-![Product Recommendation Screenshot](images/1_product_recommendation.png)
+![Product Recommendation Screenshot](images/Product recommendation.png)
 
 ### 🎯 Customer Segmentation
-![Customer Segmentation Screenshot](images/2_customer_segmentation.png)
+![Customer Segmentation Screenshot](images/Customer segmentation.png)
 
 ---
 
