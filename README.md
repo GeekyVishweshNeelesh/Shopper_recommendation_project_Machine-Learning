@@ -11,31 +11,35 @@ The aim is to assist businesses in understanding customer purchasing behavior an
 
 ## 📸 App Interface - Screenshots
 
-### 🎯 Product Recommendation
-![Product Recommendation Screenshot](images/Product recommendation.png)
+### Product Recommendation
+![Shoppers Recommendation Screenshot](images/Shoppers_Dashboard.png)
 
-### 🎯 Customer Segmentation
-![Customer Segmentation Screenshot](images/Customer segmentation.png)
+### Product Recommendation
+![Product Recommendation Screenshot](images/Product_recommendation.png)
+
+### Customer Segmentation
+![Customer Segmentation Screenshot](images/Customer_segmentation.png)
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-📦Project
- ┣ 📜app.py                          # Final Streamlit application
- ┣ 📜Customer_Segmentation.ipynb     # Notebook with clustering and modeling
- ┣ 📂images                          # Screenshots of app interface
- ┃ ┣ 📜1_product_recommendation.png
- ┃ ┗ 📜2_customer_segmentation.png
- ┣ 📂models                          # Trained ML models
- ┃ ┣ 📜kmeans_model.joblib
- ┃ ┣ 📜agg_model.joblib
- ┃ ┗ 📜dbscan_model.joblib
- ┣ 📜product_data.csv               # Product dataset
- ┣ 📜rfm_scaled.csv                 # RFM dataset
- ┣ 📜requirements.txt
- ┗ 📜README.md
+Project
+ ┣ app.py                          # Final Streamlit application
+ ┣ Customer_Segmentation.ipynb     # Notebook with clustering and modelling
+ ┣ images                          # Screenshots of app interface
+ ┃ ┣ Shoppers Dashboard.png
+ ┃ ┗ Product_recommendation.png
+ | ┗ Customer_segmentation.png
+ ┣ models                          # Trained ML models
+ ┃ ┣ kmeans_model.joblib
+ ┃ ┣ agg_model.joblib
+ ┃ ┗ dbscan_model.joblib
+ ┣ product_data.csv               # Product dataset
+ ┣ rfm_scaled.csv                 # RFM dataset
+ ┣ requirements.txt
+ ┗ README.md
 ```
 
 ---
@@ -61,7 +65,7 @@ The aim is to assist businesses in understanding customer purchasing behavior an
 
 ## 💾 Dataset
 
-> 🔗 **[Click here to download dataset](#)**  
+> 🔗 **[https://drive.google.com/file/d/1rzRwxm_CJxcRzfoo9Ix37A2JTlMummY-/view](#)**  
 
 - `rfm_scaled.csv` — Contains Recency_scaled, Frequency_scaled, Monetary_scaled
 - `product_data.csv` — Contains CustomerID and ProductName
@@ -84,14 +88,30 @@ streamlit run app.py
 
 ---
 
-## 🧠 Tech Stack
+## 🚀 Tech Stack & Tools
 
-- `Python`
-- `Pandas`, `NumPy`
-- `scikit-learn`
-- `joblib`
-- `TF-IDF`, `Cosine Similarity`
-- `Streamlit`
+- **Languages**: Python
+- **Libraries**:  
+  `Pandas`, `NumPy`, `Scikit-learn`, `Streamlit`
+- **Techniques**:
+  - Data Cleaning  
+  - Feature Engineering  
+  - Exploratory Data Analysis (EDA)  
+  - RFM Analysis  
+  - KMeans Clustering  
+  - Agglomerative Clustering  
+  - DBSCAN  
+  - Cosine Similarity  
+  - Collaborative Filtering  
+  - Real-Time Prediction  
+- **Concepts**:
+  - Customer Segmentation  
+  - Product Recommendation System  
+  - Standard Scaling  
+  - Pivot Tables  
+  - Data Transformation  
+  - Machine Learning Model Integration  
+- **Visualization**: Streamlit UI Cards & Graphs
 
 ---
 
@@ -99,8 +119,8 @@ streamlit run app.py
 
 - **Agglomerative Clustering** and **DBSCAN** do not support `.predict()` directly.
 - In this app:
-  - Agglomerative is applied using `.fit_predict()` (may throw warning on single input)
-  - DBSCAN is included for comparison but will raise an informative error on prediction attempt
+  - Agglomerative is applied using `.fit_predict()` (may throw a warning on a single input)
+  - DBSCAN is included for comparison, but will raise an informative error on prediction attempt
 
 ---
 
