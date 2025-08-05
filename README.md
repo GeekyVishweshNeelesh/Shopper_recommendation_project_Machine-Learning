@@ -65,7 +65,7 @@ Project
 
 ## 💾 Dataset
 
-> 🔗 **[https://drive.google.com/file/d/1rzRwxm_CJxcRzfoo9Ix37A2JTlMummY-/view](#)**  
+> 🔗 **[https://drive.google.com/file/d/1rzRwxm_CJxcRzfoo9Ix37A2JTlMummY-/view?usp=sharing](#)**  
 
 - `rfm_scaled.csv` — Contains Recency_scaled, Frequency_scaled, Monetary_scaled
 - `product_data.csv` — Contains CustomerID and ProductName
